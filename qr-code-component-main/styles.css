@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: hsl(212, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+.card {
+  width: 17rem;
+  text-align: center;
+  background: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px #bebebe;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.card img {
+  width: 100%;
+  border-radius: 14px;
+  max-width: 18rem;
+  max-height: 18rem;
+}
+.card-title {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+.card-content {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  /* font-size: 15px; */
+}
